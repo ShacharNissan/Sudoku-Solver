@@ -1,0 +1,25 @@
+.root {
+	-fx-padding: 5px;
+	-fx-font-size: 13pt;
+}
+
+.cell {
+	/* Defines a black border around the standard color -fx-base */
+	-fx-background-color: black, -fx-base;
+	/* By default draw the base color over the whole region, so no border visible */
+	-fx-background-insets: 0, 0;
+	-fx-padding: 5px;
+	
+}
+
+.cell:border {
+	/* Bored line */
+	-fx-background-insets: 0, 1 1 1 1;
+}
+	
+
+
+.cell .text-field {
+	-fx-pref-width: 3em;
+	-fx-pref-height: 3em;
+}
