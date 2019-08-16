@@ -7,12 +7,11 @@ The "Shachar's Sudoku Solver" was made by Shachar Nissan in order to help solve 
 The program can solve the Sudoku puzzle by going through the lines and boxes and crossing the data of all given information to determine where the next number should be, and it goes on till the Sudoku is Solved.
 
 ### Input
-The Sudoku puzzle as shown in the puzzle.
+The Sudoku puzzle as shown in the puzzle and hit the "Go" Button.
 
 ![Unsolved](https://github.com/ShacharNissan/Sudoku-Solver/blob/master/imgs/Unsolved.jpg)
 
-### Output
-The solved Sudoku.
+### Output - The solved Sudoku.
 
 ![Solved](https://github.com/ShacharNissan/Sudoku-Solver/blob/master/imgs/Solved.jpg)
 
