@@ -1,0 +1,33 @@
+.root {
+	-fx-padding: 5px;
+	-fx-font-size: 13pt;
+}
+
+.cell {
+	/* Defines a black border around the standard color -fx-base */
+	-fx-background-color: black, -fx-base;
+	/* By default draw the base color over the whole region, so no border visible */
+	-fx-background-insets: 0, 0;
+	-fx-padding: 5px;
+	
+	
+}
+
+.cell:border {
+	/* Bored line */
+	-fx-background-insets: 0, 1 1 1 1;
+}
+	
+
+
+.cell .text-field {
+	-fx-pref-width: 2em;
+	-fx-pref-height: 2em;
+	-fx-alignment: center;
+	-fx-font-family: Stencil Std, fantasy;
+	-fx-font-size: 15pt;
+}
+
+.setfocus {
+	-fx-control-inner-background: palegoldenrod , -fx-base;
+}
