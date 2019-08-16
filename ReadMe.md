@@ -1,4 +1,3 @@
-
 # Sudoku Solver
 ---------
 
@@ -9,14 +8,17 @@ The program can solve the Sudoku puzzle by going through the lines and boxes and
 
 ### Input
 The Sudoku puzzle as shown in the puzzle.
+
 ![Unsolved](https://github.com/ShacharNissan/Sudoku-Solver/blob/master/imgs/Unsolved.jpg)
 
 ### Output
 The solved Sudoku.
-Grey Cells - The given information.
-White Cells - The program Solution
+
 ![Solved](https://github.com/ShacharNissan/Sudoku-Solver/blob/master/imgs/Solved.jpg)
 
+Grey Cells - The given information.
+
+White Cells - The program Solution
 ### Version 1
 Sudoku Solver version 1, By Shachar Nissan, Email: Shachar208@gmail.com
 
@@ -31,7 +33,6 @@ The Sudoku Solver can currently solve: **Easy** and **Medium** level Sudoku Puzz
   
 + ***GUI improvements:***
   * Visual improvements and adjustments.
-  * For easy use you can now click the "Tab" keyboard button to move to the next bar.
+  * For easy use you can now click the "Tab" keyboard button to move easly to the next cell.
   * For easy use you can now you the "Up", "Down", "Left" and "Right" buttons to easy navigate.
-  * For each Box that you focus on, his row and column are highlighted for easy use.
- 
+  * For each Cell that you focus on, his row and column are highlighted for easy use.
