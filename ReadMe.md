@@ -11,6 +11,8 @@ The program can solve the Sudoku puzzle by going through the lines and boxes and
 
 Each version has it uniqueness and you are welcome to start with the 1st version and see the changes in each one.
 
+fill free to enter the Code at the "src" folders.
+
 ### Input
 The Sudoku puzzle as shown in the puzzle.
 
