@@ -1,0 +1,44 @@
+.root {
+	-fx-padding: 5px;
+	-fx-font-size: 13pt;
+}
+
+.pane {
+	-fx-alignment: center;
+}
+
+.cell {
+	/* Defines a black border around the standard color -fx-base */
+	-fx-background-color: black, -fx-base;
+	/* By default draw the base color over the whole region, so no border visible */
+	-fx-background-insets: 0, 0;
+	-fx-padding: 5px;
+}
+
+.cell:border {
+	/* Bored line */
+	-fx-background-insets: 0, 1 1 1 1;
+}
+
+.cell .text-field {
+	-fx-pref-width: 2em;
+	-fx-pref-height: 2em;
+	-fx-alignment: center;
+	-fx-font-family: Stencil Std, fantasy;
+	-fx-font-size: 15pt;
+}
+
+.setfocus {
+	-fx-control-inner-background: palegoldenrod, -fx-base;
+}
+
+.buttonPane {
+	-fx-alignment: center;
+	-fx-spacing: 100;
+	-fx-padding: 13px, 0px, 10px, 0px;
+}
+
+.buttonPane .Button {
+	-fx-pref-height: 14px;
+	-fx-pref-width: 90px;
+}
